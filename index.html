@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vista Proyecto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+<body>
+    <div class="main">
+
+    <div class="main_photo">
+        <h1>El lugar perfecto <br>para los  que amas</h1>
+        <div><img src="https://i.imgur.com/ypZ34iD.png"></div>
+    </div>
+
+    </div>
+
+    <div class="blank"></div>
+
+
+    <div class="proyect">
+        <div class="information">
+        <div class><img src="https://i.imgur.com/6pUPzPA.png"></div>
+        <div><h1 class="information_tittle">Montesquieu</h1></div>
+        <div><h3 class="information_residence">Residencial</h3></div>
+        <div><p class="information_location">La Calera,Surquillo</p></div>
+        <div><p class="information_description">Bienvenido a su nueva casa! Este hermoso <br>departamento es el lugar perfecto para vivir<br>con los que amas<br>¡No pierda la oportunidad de hacer de este <br> departamento su hogar de ensueño<br>¡Agende una visita hoy mismo!</p></div>
+        <div class="asesor"><img src="https://i.imgur.com/ypZ34iD.png" height="80" width="215"></div>
+        </div>
+        <div class="img_tittle"><img src="https://i.imgur.com/acKzqBd.jpg"></div>
+    </div>
+
+    <div class="blank1"></div>
+
+    <div><h3 class="privileged_location">¡Ubicacion privilegia!</h3></div>
+
+    <div class="map location"></div>
+
+    <div class="blank1"></div>
+
+    <div class="location_privileges"><img src="https://i.imgur.com/7XxfXha.png"></div>
+
+    <div class="blank"></div>
+    
+    <div class="mini_description"><p>¡Para que pueda disfrutar de todas la comodidades de la <br> ciudad sin tener que preocuparse por el trafico.</p></div>
+    <div class="blank1"></div>
+    <div class="Discover"><h2>¡Descubre más!</h2></div>
+
+    <div class="blank1"></div>
+
+    <!--image slider start-->
+    <div class="carrousel_slid">
+        <div class="slider">
+        <div class="slides">
+          <!--radio buttons start-->
+          <input type="radio" name="radio-btn" id="radio1">
+          <input type="radio" name="radio-btn" id="radio2">
+          <input type="radio" name="radio-btn" id="radio3">
+          <input type="radio" name="radio-btn" id="radio4">
+          <!--radio buttons end-->
+          <!--slide images start-->
+          <div class="slide first">
+            <img src="https://i.imgur.com/cwEEXsn.jpg" alt=""/>
+          </div>
+          <div class="slide">
+            <img src="https://i.imgur.com/cwEEXsn.jpg" alt=""/>
+          </div>
+          <div class="slide">
+            <img src="https://i.imgur.com/cwEEXsn.jpg" alt=""/>
+          </div>
+          <div class="slide">
+            <img src="https://i.imgur.com/cwEEXsn.jpg" alt=""/>
+          </div>
+          <!--slide images end-->
+          <!--automatic navigation start-->
+          <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+          </div>
+          <!--automatic navigation end-->
+        </div>
+        <!--manual navigation start-->
+        <div class="navigation-manual">
+          <label for="radio1-m" class="manual-btn"></label>
+          <label for="radio2-m" class="manual-btn"></label>
+          <label for="radio3-m" class="manual-btn"></label>
+          <label for="radio4-m" class="manual-btn"></label>
+        </div>
+        <!--manual navigation end-->
+      </div>
+      <!--image slider end-->
+  
+      <script type="text/javascript">
+      var counter = 1;
+      setInterval(function(){
+        document.getElementById('radio' + counter).checked = true;
+        counter++;
+        if(counter > 4){
+          counter = 1;
+        }
+      }, 5000);
+      </script>
+    </div>
+
+    <div class="blank1"></div>
+    <div class="building_description"><img src="https://i.imgur.com/HSlVHvO.png"></div>
+    <div class="blank1"></div>
+    <div class="asesor_img"><img src="https://i.imgur.com/OpLlIDI.png"></div>
+    <div class="blank1"></div>
+    
+
+    <div class="contenedor_formulario">
+        <div class="fondo-form">
+            <div class="relleno1">
+                <div class="re1">
+                    <div class="rel1">Completa tu informacion.</div>
+                </div>
+                <div class="re2">
+                    <div class="rel2">Dejanos tus datos para que un asesor especializado pueda contactarte.</div>
+                </div>
+                <div class="re3">
+                    <img src="https://i.imgur.com/KiwKN4E.png" alt="" />
+                </div>
+            </div>
+            <div class="relleno2">
+                <div class="formulario">
+                    <p>Nombres</p>
+                    <input class="controles" type="text" name="nombres" id="nombres" />
+                    <p>Numero de telefono</p>
+                    <input class="controles" type="text" name="telefono" id="telefono" />
+                    <p>Correo electronico</p>
+                    <input class="controles" type="email" name="correo" id="correo" />
+                    <p>Asunto<span class="opcion">(opcional)</span> </p>
+                    <textarea class="controles" name="sector" id="sector"></textarea>
+                    <br />
+                    <div class="terminos">
+                        <div class="ter1">
+                            <p for="">
+                                <input type="radio" id="cbox1" value="first_checkbox" />
+                                <span class="p1">Acepto los</span>
+                                <span class="p2"><a href="">Términos y Condiciones</a></span>
+                            </p>
+                        </div>
+                        <div class="ter2">
+                            <input class="boton" type="submit" value="Enviar" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="divA">
+            <div><img src="https://i.imgur.com/WSr50mY.png" loading="lazy" /></div>
+            <div class="image_text1">
+                <h3 class="footer_text">Somos una empresa especializada en la <br/> planificacion y gestion inmobiliaria
+                    con <br/> numerosos proyectos realizados.
+                </h3>
+            </div>
+        </div>
+        <div class="divB"><img src="https://i.imgur.com/ztB9c4A.png" loading="lazy" />
+
+        </div>
+        <div class="divC">
+            <div class="fila-2">
+                <img src="https://i.imgur.com/MP6QVSI.png" loading="lazy" />
+                <P>+51 999666111 </P>
+            </div>
+            <div class="fila-2">
+                <img src="https://i.imgur.com/sPS7BVo.png" loading="lazy" />
+                <P>contacto@demo.com </P>
+            </div>
+            <div class="fila-2">
+                <img src="https://i.imgur.com/LDQAn8c.png" loading="lazy" />
+                <P>Lima, Perú</P>
+            </div>
+        </div>
+        <div class="divD">
+            <div class="menu2">
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Proyecto</a>
+                    </li>
+                    <li>
+                        <a href="#">Servicio</a>
+                    </li>
+                    <li>
+                        <a href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <div class="footer_copy">
+        <p>Copyright 2023 @PROFIT Inversiones SAC</p>
+    </div>
+    <div class="politicas">
+        <div class="politicas-footer">
+            <div class="politicas-f">
+                <div class="information"><a href="">Política de Privacidad </a> 
+                    <a href="">Política de Cookies </a> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
