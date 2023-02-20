@@ -1,0 +1,364 @@
+<t name="Homepage" t-name="website.homepage">
+  <t t-call="website.layout">
+    <t t-set="pageName" t-value="'homepage'"/>
+    
+    
+    <div class="main">
+    <div class="main_photo">
+        <h1>El lugar perfecto <br/>para los  que amas</h1>
+        <div><img src="https://i.imgur.com/16XaA3B.png"/></div>
+    </div>
+
+    </div>
+
+    <div class="blank"/>
+
+
+    <div class="proyect">
+        <div class="information">
+        <div><img src="https://i.imgur.com/6pUPzPA.png"/></div>
+        <div><h1 class="information_tittle">Montesquieu</h1></div>
+        <div><h3 class="information_residence">Residencial</h3></div>
+        <div><p class="information_location">La Calera,Surquillo</p></div>
+        <div><p class="information_description">Bienvenido a su nueva casa! Este hermoso <br/>departamento es el lugar perfecto para vivir<br/>con los que amas<br/>¡No pierda la oportunidad de hacer de este <br/> departamento su hogar de ensueño<br/>¡Agende una visita hoy mismo!</p></div>
+        <div class="asesor"><img src="https://i.imgur.com/ypZ34iD.png" height="80" width="215"/></div>
+        </div>
+        <div class="img_tittle"><img src="https://i.imgur.com/acKzqBd.jpg"/></div>
+    </div>
+
+    <div class="blank1"/>
+
+    <div><h3 class="privileged_location">¡Ubicacion privilegia!</h3></div>
+
+    <div class="map location"/>
+
+    <div class="blank1"/>
+
+    <div class="location_privileges"><img src="https://i.imgur.com/7XxfXha.png"/></div>
+
+    <div class="blank"/>
+    
+    <div class="mini_description"><p>¡Para que pueda disfrutar de todas la comodidades de la <br/> ciudad sin tener que preocuparse por el trafico.</p></div>
+    <div class="blank1"/>
+    <div class="Discover"><h2>Descubre más</h2></div>
+
+    <div class="blank1"/>
+
+    <!--image slider start-->
+  <div class="carrousel_slid">
+        <div class="slider">
+        <div class="slides">
+          <!--radio buttons start-->
+          <input type="radio" name="radio-btn" id="radio1"/>
+          <input type="radio" name="radio-btn" id="radio2"/>
+          <input type="radio" name="radio-btn" id="radio3"/>
+          <input type="radio" name="radio-btn" id="radio4"/>
+          <!--radio buttons end-->
+          <!--slide images start-->
+          <div class="slide first">
+            <img src="https://i.imgur.com/cwEEXsn.jpg" alt=""/>
+          </div>
+          <div class="slide">
+            <img src="https://i.imgur.com/cwEEXsn.jpg" alt=""/>
+          </div>
+          <div class="slide">
+            <img src="https://i.imgur.com/cwEEXsn.jpg" alt=""/>
+          </div>
+          <div class="slide">
+            <img src="https://i.imgur.com/cwEEXsn.jpg" alt=""/>
+          </div>
+          <!--slide images end-->
+          <!--automatic navigation start-->
+          <div class="navigation-auto">
+            <div class="auto-btn1"/>
+            <div class="auto-btn2"/>
+            <div class="auto-btn3"/>
+            <div class="auto-btn4"/>
+          </div>
+          <!--automatic navigation end-->
+        </div>
+        <!--manual navigation start-->
+        <div class="navigation-manual">
+          <label for="radio1-m" class="manual-btn"/>
+          <label for="radio2-m" class="manual-btn"/>
+          <label for="radio3-m" class="manual-btn"/>
+          <label for="radio4-m" class="manual-btn"/>
+        </div>
+        <!--manual navigation end-->
+      </div>
+      <!--image slider end-->
+  
+      <script type="text/javascript">
+      var counter = 1;
+      setInterval(function(){
+        document.getElementById('radio' + counter).checked = true;
+        counter++;
+        if(counter &gt; 4){
+          counter = 1;
+        }
+      }, 5000);
+      </script>
+    </div>
+
+    <div class="blank1"/>
+    <div class="building_description"><img src="https://i.imgur.com/HSlVHvO.png"/></div>
+    <div class="blank1"/>
+    <div class="asesor_img"><img src="https://i.imgur.com/OpLlIDI.png"/></div>
+    <div class="blank1"/>
+    
+
+<div class="contenedor_formulario2">
+        <div class="fondo-form2">
+            <div class="relleno1-2">
+                <div class="re1-2">
+                    <div class="rel1-2">Completa tu informacion.</div>
+                </div>
+                <div class="re2-2">
+                    <div class="rel2-2">Dejanos tus datos para que un asesor especializado pueda contactarte.</div>
+                </div>
+                <div class="re3-2">
+                    <img src="https://i.imgur.com/KiwKN4E.png" alt=""/>
+                </div>
+            </div>
+            <div class="relleno2-2">
+                <div class="formulario-2">
+                    <p>Nombres</p>
+                    <input class="controles-2" type="text" name="nombres" id="nombres"/>
+                    <p>Numero de telefono</p>
+                    <input class="controles-2" type="text" name="telefono" id="telefono"/>
+                    <p>Correo electronico</p>
+                    <input class="controles-2" type="email" name="correo" id="correo"/>
+                    <p>Asunto<span class="opcion">(opcional)</span> </p>
+                    <textarea class="controles-2" name="sector" id="sector"/>
+                    <br/>
+                    <div class="terminos-2">
+                        <div class="ter1-2">
+                            <p for="">
+                                <input type="radio" id="cbox1" value="first_checkbox"/>
+                                <span class="p1">Acepto los</span>
+                                <span class="p2-2"><a href="">Términos y Condiciones</a></span>
+                            </p>
+                        </div>
+                        <div class="ter2-2">
+                            <input class="boton" type="submit" value="Enviar"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="divA">
+            <div><img src="https://i.imgur.com/WSr50mY.png" loading="lazy"/></div>
+            <div class="image_text1">
+                <h3 class="footer_text">Somos una empresa especializada en la <br/> planificacion y gestion inmobiliaria
+                    con <br/> numerosos proyectos realizados.
+                </h3>
+            </div>
+        </div>
+        <div class="divB"><img src="https://i.imgur.com/ztB9c4A.png" loading="lazy"/>
+
+        </div>
+        <div class="divC">
+            <div class="fila-2">
+                <img src="https://i.imgur.com/MP6QVSI.png" loading="lazy"/>
+                <P>+51 999666111 </P>
+            </div>
+            <div class="fila-2">
+                <img src="https://i.imgur.com/sPS7BVo.png" loading="lazy"/>
+                <P>contacto@demo.com </P>
+            </div>
+            <div class="fila-2">
+                <img src="https://i.imgur.com/LDQAn8c.png" loading="lazy"/>
+                <P>Lima, Perú</P>
+            </div>
+        </div>
+        <div class="divD">
+            <div class="menu2">
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Proyecto</a>
+                    </li>
+                    <li>
+                        <a href="#">Servicio</a>
+                    </li>
+                    <li>
+                        <a href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <div class="footer_copy">
+        <p>Copyright 2023 @PROFIT Inversiones SAC</p>
+    </div>
+    <div class="politicas">
+        <div class="politicas-footer">
+            <div class="politicas-f">
+                <div class="information"><a href="">Política de Privacidad </a> 
+                    <a href="">Política de Cookies </a> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--vista movil-->
+    <div class="main_mov">
+
+        <div class="main_photo_mov">
+            <h1>El lugar perfecto <br/>para los  que amas</h1>
+            <div class="asesor_img1_mov"><img src="https://i.imgur.com/16XaA3B.png"/></div>
+        </div>
+        
+    </div>
+
+    <div class="proyect_mov">
+        
+        <div class="new_proyect_mov"><img src="https://i.imgur.com/6pUPzPA.png"/></div>
+        <div class="proyecto_tittle_mov">Montesquieu</div>
+        <div class="proyecto_subtittle_mov">Residencial</div>
+        <div class="proyecto_mini_subtittle_mov">La Calera, Surquillo</div>
+        <div class="blank1-m"/>
+        <div class="text1_mov">Bienvenido a su nueva casa! Este hermoso <br/>departamento es el lugar perfecto para vivir<br/>con los que amas.</div>
+        <div class="blank-m"/>
+        <div class="text2_mov">¡No pierda la oportunidad de hacer de este <br/> departamento su hogar de ensueño! <br/> ¡Agende una visita hoy mismo!</div>
+
+        <div class="blank1-m"/>
+        <div class="img_tittle_mov"><img src="https://i.imgur.com/acKzqBd.jpg"/></div>
+
+    </div>
+
+    <div class="blank1-m"/>
+
+    <div class="asesor_movil"><img src="https://i.imgur.com/ypZ34iD.png"/></div>
+    
+    <div class="privileged_mov">¡Ubicación privilegia!</div>
+    
+    <div class="blank1-m"/>
+
+    <div class="privilieged_stickers"><img src="https://i.imgur.com/7XxfXha.png"/></div>
+
+    <div class="blank1-m"/>
+
+    <div class="privileged_desc">!Para que puedas disfrutar de todas las comodidades <br/> de la ciudad sin tener que preocuparse por el trafico!</div>
+    
+    <div class="blank1-m"/>
+    <div class="discover_more">Descubre más</div>
+
+    <div class="slider-m">
+        <span id="slide-1-m"/>
+        <span id="slide-2-m"/>
+        <span id="slide-3-m"/>
+        <div class="image-container-m">
+          <img src="https://i.imgur.com/cwEEXsn.jpg" class="slide-m" width="350" height="300"/>
+          <img src="https://i.imgur.com/cwEEXsn.jpg" class="slide-m" width="350" height="300"/>
+          <img src="https://i.imgur.com/cwEEXsn.jpg" class="slide-m" width="350" height="300"/>
+        </div>
+        <div class="buttons-m">
+          <a href="#slide-1-m"/>
+          <a href="#slide-2-m"/>
+          <a href="#slide-3-m"/>
+        </div>
+    </div>
+
+
+
+    <div class="blank1-m"/>
+
+
+    <div class="blank1-m"/>
+
+    <div class="location_img_desc"><img src="https://i.imgur.com/HSlVHvO.png"/></div>
+    
+    <div class="blank1-m"/>
+
+    <div class="contact_asesor1"><img src="https://i.imgur.com/OpLlIDI.png"/></div>
+
+    <div class="blank1-m"/>
+
+    <div class="contenedor_formulario-m2">
+        <div class="fondo-form-m2">
+            <div id="formulario_header-m2">
+                <h2>Nos comunicamos contigo!</h2>
+            </div>
+            <div id="formulario_miniheader-m2">
+                <p id="text_form_subtop_m2">Dejanos tus datos rellenando el siguiente formulario
+                </p>
+            </div>
+         
+            <div class="relleno2-m2">
+                <div class="formulario-m2">
+                    <p>Nombres</p>
+                    <input class="controles-m2" type="text" name="nombres" id="nombres"/>
+                    <p>Numero de telefono</p>
+                    <input class="controles-m2" type="text" name="telefono" id="telefono"/>
+                    <p>Correo electronico</p>
+                    <input class="controles-m2" type="email" name="correo" id="correo"/>
+                    <p>Asunto<span class="opcion">(opcional)</span></p>
+                    <input class="controles-m2" type="text" name="sector" id="sector"/>
+                    <br/>
+                    <br/>
+                    <div class="terminos-m2">
+                        <p>
+                            <input type="radio" id="cbox1" value="first_checkbox"/>
+                            <span class="p1">Acepto
+                                los Terminos y Condiciones</span>
+                            <span class="p2">
+                                <a href="">
+                                    Términos y Condiciones
+                                </a>
+                            </span>
+                        </p>
+                        <input class="boton" type="submit" value="Enviar"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer-m">
+        <div class="divC-m">
+            <div>
+                <div class="contact_sticker-m"><img src="https://i.imgur.com/Bbgzvfh.png" loading="lazy"/></div>
+                <div>
+                    <p class="footer_text-m">+51 999 666 111</p>
+                </div>
+            </div>
+            <div>
+                <div class="contact_sticker-m"><img src="https://i.imgur.com/NwfhgeS.png" loading="lazy"/></div>
+                <div>
+                    <p class="footer_text-m">contacto@profitperu.com</p>
+                </div>
+            </div>
+            <div>
+                <div class="contact_sticker-m"><img src="https://i.imgur.com/Ucr0vRj.png" loading="lazy"/>
+                    <div>
+                        <p class="footer_text-m">Lima,Peru</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="divA-m">
+            <div><img src="https://i.imgur.com/WSr50mY.png" loading="lazy" width="250" height="185"/></div>
+            <div class="image_text1-m">
+                <h3 class="footer_text3-m">Somos una empresa especializada en la planificacion y <br/> gestion
+                    inmobiliaria
+                    con numerosos proyectos realizados.
+                </h3>
+            </div>
+            <div>
+                <p class="footer_text3-m">Copyright 2023 @PROFIT Inversiones SAC</p>
+            </div>
+        </div>
+        <div class="divB-m"><img src="https://i.imgur.com/ztB9c4A.png" loading="lazy" width="150" height="75"/>
+        </div>
+   </div>
+  </t>
+</t>
