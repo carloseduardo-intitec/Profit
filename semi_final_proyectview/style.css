@@ -239,7 +239,7 @@ h1 {
     justify-content: center;
   }
 
-  .contenedor_formulario {
+  .contenedor_formulario2 {
     background-color: #E03B4B;
     height: 900px;
     display: flex;
@@ -248,7 +248,7 @@ h1 {
     align-items: center;
   }
   
-  .fondo-form {
+  .fondo-form2 {
     background-image: url(https://i.imgur.com/QdFo3op.jpeg);
     background-repeat: no-repeat;
     background-size: 2000px;
@@ -258,19 +258,19 @@ h1 {
     align-items: center;
   }
   
-  .relleno1 {
+  .relleno1-2 {
     height: 900px;
     width: 50%;
   
   }
   
-  .re1 {
+  .re1-2 {
     height: 450px;
     position: relative;
     left: 120px;
   }
   
-  .rel1 {
+  .rel1-2 {
     display: flex;
     color: white;
     font-size: 100px;
@@ -279,13 +279,13 @@ h1 {
     padding-top: 120px;
   }
   
-  .re2 {
+  .re2-2 {
     height: 200px;
     position: relative;
     left: 120px;
   }
   
-  .rel2 {
+  .rel2-2 {
     display: flex;
     color: white;
     font-size: 35px;
@@ -294,17 +294,17 @@ h1 {
     padding-top: 120px;
   }
   
-  .re3 {
+  .re3-2 {
     height: 250px;
     position: relative;
     left: 85px;
   }
   
-  .re3 img {
+  .re3-2 img {
     height: 230px;
   }
   
-  .relleno2 {
+  .relleno2-2 {
     height: 900px;
     width: 50%;
     display: flex;
@@ -314,7 +314,7 @@ h1 {
   
   }
   
-  .formulario {
+  .formulario-2 {
     padding-top: 30px;
     padding-left: 30px;
     padding-right: 30px;
@@ -325,7 +325,7 @@ h1 {
     font-family: Allerr;
   }
   
-  .formulario h4 {
+  .formulario-2 h4 {
     font-family: 'Sansita', sans-serif;
     text-align: center;
     font-size: 22px;
@@ -333,7 +333,7 @@ h1 {
     font-family: Aller;
   }
   
-  .controles {
+  .controles-2 {
     width: 95%;
     background: white;
     padding: 4px;
@@ -345,7 +345,7 @@ h1 {
     color: white;
   }
   
-  .formulario p {
+  .formulario-2 p {
     font-family: sans-serif;
     font-weight: bold;
     height: 40px;
@@ -356,17 +356,17 @@ h1 {
     font-family: Aller
   }
   
-  .formulario textarea {
+  .formulario-2 textarea {
     height: 130px;
     font-size: 25px;
   }
   
-  .terminos {
+  .terminos-2 {
     height: 50px;
     display: flex;
   }
   
-  .ter1 {
+  .ter1-2 {
     width: 75%;
   
     height: 80px;
@@ -375,7 +375,7 @@ h1 {
     align-items: center;
   }
   
-  .ter2 {
+  .ter2-2 {
     width: 25%;
     height: 80px;
     position: relative;
@@ -386,17 +386,17 @@ h1 {
     align-items: center;
   }
   
-  .p2 a {
+  .p2-2 a {
     color: #E03B4B;
     text-decoration: none;
   }
   
-  .formulario a:hover {
+  .formulario-2 a:hover {
     color: rgba(0, 83, 164, 255);
     text-decoration: underline;
   }
   
-  .formulario .boton {
+  .formulario-2 .boton {
     width: 130px;
     background: gray;
     border-radius: 10px;
@@ -692,7 +692,7 @@ h1 {
   {
     display: none;
   }
-  .contenedor_formulario-m
+  .contenedor_formulario-m2
   {
     display: none;
   }
@@ -700,7 +700,12 @@ h1 {
   .footer-m{
     display: none;
   }
- 
+  .slider-m
+  {
+    display: none;
+  }
+
+  
 
    /**vista movil **/
 
@@ -725,7 +730,7 @@ h1 {
     align-items: center;
 
   }
-  
+
   .slider-m {
     width: 350px;
     height: 300px;
@@ -928,7 +933,7 @@ h1 {
   justify-content: center;
 }
 
- .contenedor_formulario-m {
+ .contenedor_formulario-m2 {
   background-color: #E03B4B;
   height: 800px;
   display: flex;
@@ -937,17 +942,17 @@ h1 {
   align-items: center;
 }
 
-#formulario_header-m {
+#formulario_header-m2 {
   font-family: Allerr;
   color: white;
 }
 
-#formulario_miniheader-m {
+#formulario_miniheader-m2 {
   font-family: Aller;
   color: white;
 }
 
-.fondo-form-m {
+.fondo-form-m2 {
   background: url(https://i.imgur.com/QdFo3op.jpeg) no-repeat;
   background-size: 414px 900px;
   display: flex;
@@ -958,13 +963,13 @@ h1 {
   height: 100%;
 }
 
-.relleno1-m {
+.relleno1-m2 {
 
   height: 700px;
   width: 20%;
 }
 
-.relleno2-m {
+.relleno2-m2 {
   height: 600px;
   width: 90%;
   display: flex;
@@ -974,7 +979,7 @@ h1 {
 
 }
 
-.formulario-m {
+.formulario-m2 {
   padding-top: 15px;
   padding-left: 30px;
   padding-right: 30px;
@@ -987,13 +992,13 @@ h1 {
 
 }
 
-#text_form_subtop_m
+#text_form_subtop_m2
 {
   color: white;
   font-family: Aller;
 }
 
-.formulario-m h4 {
+.formulario-m2 h4 {
   font-family: 'Sansita', sans-serif;
   text-align: center;
   font-size: 22px;
@@ -1001,7 +1006,7 @@ h1 {
   font-family: Aller;
 }
 
-.controles-m {
+.controles-m2 {
   width: 95%;
   background: white;
   padding: 4px;
@@ -1034,7 +1039,7 @@ h1 {
   width: 120px;
 }
 
-.formulario-m label {
+.formulario-m2 label {
   font-family: sans-serif;
   height: 40px;
   text-align: center;
@@ -1047,23 +1052,23 @@ h1 {
   font-size: small;
 }
 
-.terminos-m {
+.terminos-m2 {
   justify-content: space-between;
 }
 
-.formulario-m a {
+.formulario-m2 a {
   color: white;
   text-decoration: none;
   font-size: small;
 }
 
-.formulario-m a:hover {
+.formulario-m2 a:hover {
   color: rgba(0, 83, 164, 255);
   text-decoration: underline;
   font-size: x-small;
 }
 
-.formulario-m .boton {
+.formulario-m2 .boton {
   width: 30%;
   background: gray;
   border-radius: 4px;
@@ -1190,7 +1195,7 @@ h1 {
   {
     display: none;
   }
-  .contenedor_formulario
+  .contenedor_formulario2
   {
     display: none;
   }
