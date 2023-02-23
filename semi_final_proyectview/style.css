@@ -1137,6 +1137,19 @@ h1 {
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+}
+
+.img_profit_footer 
+{
+  display: flex;
+  justify-content: center;
+}
+
+.img_profit_footer img
+{
+  width: 60%;
+  height: 50%
 }
 
 .image_text1-m {
@@ -1154,8 +1167,20 @@ h1 {
 }
 
 .footer_text3-m {
-  font-size: 15px;
+  font-size: 12px;
   color: white;
+}
+
+.divB-m
+{
+  display: flex;
+  justify-content: center;
+}
+
+.divB-m img
+{
+  width:40%;
+  height:50%
 }
 
 .midel2 {
