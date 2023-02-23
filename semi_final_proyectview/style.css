@@ -700,7 +700,8 @@ h1 {
   .footer-m{
     display: none;
   }
-  .slider-m
+  
+  .carrousel_movil
   {
     display: none;
   }
@@ -731,16 +732,7 @@ h1 {
 
   }
 
-  .slider-m {
-    width: 350px;
-    height: 300px;
-    background-color: yellow;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0px;
-    text-align: center;
-    overflow: hidden;
-  }
+ 
   
   .image-container-m {
     width: 1500px;
@@ -753,6 +745,7 @@ h1 {
     -o-transition: left 2s;
     transition: left 2s;
   }
+ 
   .slide-m {
     float: left;
     margin: 0px;
@@ -828,27 +821,47 @@ h1 {
     color: #546270;
     font-family: Allerr;
     font-size: large;
+  } 
+  .slider-m {
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center;
+    overflow: hidden;
+  }
+  .carrousel_movil
+  {
+    display: flex;
+    justify-content: center;
   }
 
   .text1_mov
   {
     font-family: Aller;
-    text-align:center
-
+    text-align: center;
   }
   
   .text2_mov
   {
     font-family: Aller;
-    text-align:center
-    
+    text-align: center;
   }
 
  .img_tittle_mov img
  {
-  width:100%;
-  height:100%
+  width:90%;
+  height:80%
+  
+ }
 
+ .img_tittle_mov
+ {
+  display: flex;
+  align-items: center;
+  justify-content: center;
  }
  .asesor_movil
  {
@@ -915,7 +928,7 @@ h1 {
 
  .location_img_desc img
  {
-  width: 80%;
+  width: 90%;
   height:90%
  }
 
@@ -1149,19 +1162,19 @@ h1 {
   display: inline;
 }
 
-  .main_photo{
+.main_photo{
     display: none;
   }
-  .blank
+.blank
   {
     display: none;
   }
-  .blank1
+.blank1
   {
     display: none;
   }
 
-  .proyect
+.proyect
   {
     display: none;
   }
